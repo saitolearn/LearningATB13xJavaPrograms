@@ -1,8 +1,6 @@
 package ex01_Java_Basic;
 
-import java.sql.SQLOutput;
-
-public class Lab001_Shortcuts {
+public class Lab001_Shortcut {
 
     public static void main(String[] args) {
 

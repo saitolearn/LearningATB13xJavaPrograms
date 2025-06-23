@@ -1,6 +1,6 @@
 package ex01_Java_Basic;
 
-public class Lab004_Comments {
+public class Lab004_CommentsTypes {
 
     public static void main(String[] args) {
         // This is a Single line comment, this code will not be executed.
@@ -12,10 +12,8 @@ public class Lab004_Comments {
          System.out.println("Drink");
          System.out.println("Chai");*/
 
-        System.out.println("Example of Comments explained above.");
+        System.out.println("Example of Comments in Java explained above.");
     }
-
-
 
 }
 

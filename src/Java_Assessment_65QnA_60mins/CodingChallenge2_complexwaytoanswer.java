@@ -1,6 +1,6 @@
 package Java_Assessment_65QnA_60mins;
 
-public class CodingChallenge2 {
+public class CodingChallenge2_complexwaytoanswer {
 
     public static void main(String[] args) {
 
@@ -17,21 +17,21 @@ public class CodingChallenge2 {
         System.out.println("Modulus: " + (num1 % num2));
 
         // Assignment Operators
-        int a = 10;
-
+        int a = num1;  // start with 10
         System.out.println("\nAssignment Operations:");
+        System.out.println("Initial value: " + a);
 
-        a = a + 5;
-        System.out.println("After a = a + 5: " + a);
+        a += num2; // a = a + num2
+        System.out.println("After a += num2: " + a);
 
-        a = a - 5;
-        System.out.println("After a = a - 5: " + a);
+        a -= num2; // a = a - num2
+        System.out.println("After a -= num2: " + a);
 
-        a = a * 5;
-        System.out.println("After a = a * 5: " + a);
+        a *= num2; // a = a * num2
+        System.out.println("After a *= num2: " + a);
 
-        a = a / 5;
-        System.out.println("After a = a / 5: " + a);
+        a /= num2; // a = a / num2
+        System.out.println("After a /= num2: " + a);
 
     }
 }
